@@ -9,24 +9,10 @@ const ApiHook = () => {
 
     const [upcoming, setUpcoming] = useState([]);
     const [latest, setLatest] = useState([]);
-    // const [info, setInfo] = useState([]);
-    // const [query, setQuery] = useState("");
+ 
     
     
 
-    // const search = async (evt) => {
-    //     if (evt.key === "Enter") {
-    //       await fetch(url)
-    //         .then((res) => res.json())
-    //         .then((result) => {
-    //           setInfo(result.results);
-    //           // console.log(result.results);
-    //           //  console.log(evt.key);
-    //         });
-    //     }
-    
-      
-    //   };
 
       const getFeatured = async () => {
         await axios
